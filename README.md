@@ -76,13 +76,15 @@ You will need to setup an account and add your FQDNs to receive your Site Key an
    - vlocity_ins.BusinessProcessDisplayController
    - vlocity_ins.PlatformObjectMappings
 
-
 ![Image: images/apex.png](/images/apex.png)
+
+
+
 2. Create sharing rule for the OmniScript object and the Guest user of your Experience Site: (The criteria is anything that will always be true)
 ![Image: images/sharing_rule.png](/images/sharing_rule.png)
 
 
-2. Grant Read access for two objects
+3. Grant Read access for two objects
    - vlocity OmniScripts
    - vlocity OmniScript Compiled Definitions
      - Grant read access to 'Content' & 'Sequence' fields
