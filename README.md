@@ -4,8 +4,9 @@ This is a custom lightning web component that leverages Google reCaptcha and can
 
 <h2>Overview</h2>
 
-omniCaptcha is a custom LWC developed to be used in a OmniScript that is hosted on an Experience Cloud page. It allows you to leverage Google reCAPTCHA for that OmniScript.
-[Image: Image.jpg]
+omniCaptcha is a custom LWC developed to be used in a OmniScript that is hosted on an Experience Cloud page. It allows you to leverage Google reCAPTCHA for that OmniScript. 
+
+![](images/recaptcha.png)
 
 <h2>Business Objective</h2>
 
