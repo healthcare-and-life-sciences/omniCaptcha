@@ -59,7 +59,7 @@ Google reCaptcha is a tool used to reduce fake form data caused by bots. This co
     * Google – https://www.google.com (https://www.google.com/)
         GStatic – https://www.gstatic.com (https://www.gstatic.com/)
 
-[Image: Image.jpg]
+![](images/trusted_sites.png)
  ** 
 
 * Still in settings navigate to Advanced and click the Edit Head Markup button. 
@@ -87,7 +87,7 @@ Google reCaptcha is a tool used to reduce fake form data caused by bots. This co
 * Open the validate_captcha Integration Procedure from the Accelerator assets you downloaded.
     * In the second HTTP action node open the REST OPTIONS and add your secret key from Google where it says ENTER_YOUR_SECRET_KEY_HERE
 
-[Image: Image.jpg]
+![](images/IP.png)
  
 
     * Save and activate the IP.
@@ -101,7 +101,7 @@ Google reCaptcha is a tool used to reduce fake form data caused by bots. This co
     * Show Element if True
         * (Step1:CustomLWC1:isHuman = true)
 
-[Image: Image.jpg]
+![](images/conditional_view.png)
  ** 
 *Note: * ** *If the reCAPTCHA fails isHuman will be set to false. * ** *If it succeeds it will be true. ** *
 * * ** *Debug data is written to the console of the browser. ** *
@@ -113,16 +113,17 @@ For Guest access in Experience Cloud Site
     2. vlocity_ins.BusinessProcessDisplayController
     3. vlocity_ins.PlatformObjectMappings
         
-    4. [Image: Image.jpg]
+![](images/apex.png)        
+        
 2. Create sharing rule for the OmniScript object and the Guest user of your Experience Site: (The criteria is anything that will always be true)
-    1. [Image: Image.jpg]
+    1. ![](images/sharing_rule.png)
 3. Grant Read access for two objects
     1. vlocity OmniScripts
     2. vlocity OmniScript Compiled Definitions
         1. Grant read access to 'Content' & 'Sequence' fields
             
-        2. [Image: Image.jpg]
-        3. [Image: Image.jpg]
+        2. ![](images/objects.png)
+        3. ![](images/Compiled.png)
 
  
 
