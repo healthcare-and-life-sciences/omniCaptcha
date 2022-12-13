@@ -128,7 +128,7 @@ For Guest access in Experience Cloud Site
 
 To add language support:
 
-add a line in the Experiece cloud aite Head Markup under the line 'error-callback': errorCallback
+add a line in the Experiece cloud site Head Markup under the line 'error-callback': errorCallback
 add
 'hl' : 'de'
 don't forge tto add a comma to the line above.  
