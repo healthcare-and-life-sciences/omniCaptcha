@@ -125,6 +125,14 @@ For Guest access in Experience Cloud Site
         2. ![](images/objects.png)
         3. ![](images/Compiled.png)
 
+
+To add language support:
+
+add a line in the Experiece cloud aite Head Markup under the line 'error-callback': errorCallback
+add
+'hl' : 'de'
+don't forge tto add a comma to the line above.  
+Language codes available here -> https://developers.google.com/recaptcha/docs/language
  
 
 <h2>Assumptions</h2>
