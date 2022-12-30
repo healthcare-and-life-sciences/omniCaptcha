@@ -1,4 +1,5 @@
-<h1>A-HLS OmniCaptcha* *Documentation</h1>
+![](images/ahlsbanner.png)
+<h1>A-HLS OmniCaptcha Documentation</h1>
 
 This is a custom lightning web component that leverages Google reCaptcha and can be used in an OmniScript. Typically placed in a OmniScript that is being used on an anonymous Experience Cloud site page.  
 
